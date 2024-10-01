@@ -1,6 +1,8 @@
 import art
 import os
 
+print(art.logo)
+
 #Calculator 
 
 def add(n1, n2):
@@ -21,7 +23,6 @@ Operations = {"+": add,
               "/": divide}
 
 def calculator():
-    print(art.logo)
     num1 = float(input("What's the first number?: "))
     for symbol in Operations:
         print(symbol)
